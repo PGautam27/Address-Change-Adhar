@@ -1,4 +1,4 @@
-package com.example.addresschange.composable
+package com.example.myapplication.composable
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*

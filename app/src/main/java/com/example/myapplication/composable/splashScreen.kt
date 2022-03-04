@@ -30,9 +30,7 @@ fun splashScreen(navController: NavController) {
     val scale = remember {
         Animatable(0f)
     }
-    var progress = remember {
-        mutableStateOf(0.1f)
-    }
+
     LaunchedEffect(key1 = true){
         scale.animateTo(
             targetValue = 1.0f,
